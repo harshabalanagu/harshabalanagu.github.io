@@ -17,7 +17,7 @@ const greeting = {
     "An ardent admirer of all the latest tech in Web and App ecosystems and an entusiastic developer of the same."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+    "https://drive.google.com/file/d/1NGQpZSNixVn7XDkSOJBzpMcN_ehhZuAO/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -26,23 +26,22 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/harsha130699",
   linkedin: "https://www.linkedin.com/in/harsha-balanagu/",
-  gmail: "balanaguharshavardhan@gmail.com",
-  medium: "https://medium.com/@hmade",
+  gmail: "balanaguharsha@outlook.com",
+  medium: "https://medium.com/@harshabalanagu",
   display: true // Set true to display this section, defaults to false
 };
 
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "My Passion for",
+  subTitle: "Full stack developer who uses ML/DL Algorithms when applicable in Full stack.",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop highly interactive Front end / User Interfaces for web and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integration of third party services such as Azure/ Firebase"
     )
   ],
 
@@ -75,20 +74,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "azure",
+      fontAwesomeClassname: "fab fa-microsoft"
     },
     {
       skillName: "firebase",
@@ -112,23 +103,22 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Amrita University",
+      logo: require("./assets/images/Amrita.jpg"),
+      subHeader: "Bachelor of Technology in Computer Science",
+      duration: "June 2016 - April 2020",
+      desc: "Ranked Top 5 in the Program. Participated in the research in the field of Ambience sensing.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "9.55 CGPA",
+        "Organized various tech events at campus."
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Narayana IIT Academy",
+      logo: require("./assets/images/Narayana.png"),
+      subHeader: "+1 and +2",
+      duration: "June 2014 - May 2016",
+      desc: "Got 96% in the program. Took Maths, Physics and Chemistry group.",
     }
   ]
 };
@@ -162,27 +152,24 @@ const workExperiences = {
     {
       role: "Software Engineer",
       company: "Microsoft",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      companylogo: require("./assets/images/Microsoft.png"),
+      date: "June 2020 – Present",
+      desc: "Working as Software engineer in a team which deals with Availability forecast of resources.",
+      
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Engineering Intern (6M)",
+      company: "Microsoft",
+      companylogo: require("./assets/images/Microsoft.png"),
+      date: "January 2020 – June 2020",
+      desc: "Worked as a part of HR Team at Microsoft to build Talent match tool, powered by NLP"
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Engineer Intern (2M)",
+      company: "Microsoft",
+      companylogo: require("./assets/images/Microsoft.png"),
+      date: "May 2019 – July 2019",
+      desc: "Worked as an intern in the team of Microsoft Certifications, where we built a Planner for MSCert tool users"
     }
   ]
 };
@@ -198,31 +185,23 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects I worked on!",
+  subtitle: "Some of the Project that I am proud to be part of.",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/Microsoft.png"),
+      projectName: "MSCert Planner",
+      projectDesc: "Planner for Microsoft Certifications - Recommendation system",
       footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
+        
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
+      image: require("./assets/images/Microsoft.png"),
+      projectName: "Talent Match",
+      projectDesc: "A tool for scoring Resumes againg Job Descriptions using Machine Learning, NLP in specific.",
+      
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -283,7 +262,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -291,20 +270,26 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "\"If you can't explain it to a five, you don't understand it yourself\"",
 
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://medium.com/@harshabalanagu/how-login-works-a936bf992a9d",
+      title: "How login works?",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Do you still go with simple username and password matching? Here is why you should reconsider."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://medium.com/@harshabalanagu/my-notes-to-those-entering-to-tech-post-1-know-git-f9f8c7684aa3",
+      title: "Starting in Tech? Know GIT",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "These are a part of my series, \"My notes to those entering to tech\""
+    },
+    {
+      url: "https://medium.com/@harshabalanagu/my-notes-to-those-entering-to-tech-post-2-get-ready-to-startle-1b1cf2459724",
+      title: "Get ready to startle. Your team's codebase",
+      description:
+        "These are a part of my series, \"My notes to those entering to tech\""
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -326,7 +311,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -339,22 +324,22 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+    "Discuss a project/opportunity or just want to say hi? My Inbox is open for all.",
+  number: "+91-7981421303",
+  email_address: "balanaguharsha@outlook.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 export {
